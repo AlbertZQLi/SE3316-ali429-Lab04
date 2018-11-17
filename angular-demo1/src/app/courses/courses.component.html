@@ -1,4 +1,7 @@
 <h2>
-    courses
+    {{title}}
 </h2>
-{{title}}
+<ul>
+    <li *ngFor="let course of courses">
+        {{course}}
+    </li>
